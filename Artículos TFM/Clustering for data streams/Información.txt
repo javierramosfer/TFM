@@ -1,0 +1,7 @@
+Sitios para buscar comparativas:
+	- DATA STREAMS_ MODELS AND ALGORITHMS
+	- Machine Learning for Data Streams: with Practical Examples in MOA (Adaptive Computation and Machine Learning series)
+	- DATA MINING Concepts and Techniques
+Pendiente: 
+	- Mirar la clasificación de los métodos de clustering del libro "DATA MINING Concepts and Techniques" y tener en cuenta DBSCAN y Den-Stream (explicados en el libro "Machine Learning for Data Streams: with Practical Examples in MOA...")
+	- Tratar de clasificar los diferentes métodos de clustering para data streams según la clasificación de los métodos de clustering realizada en el libro "DATA MINING Concepts and Techniques"

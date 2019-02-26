@@ -1,0 +1,2 @@
+Pending:
+	- Check the software framework that implements many of the techniques explained in the book "Machine Learning for Data Streams: with Practical Examples in MOA (Adaptive Computation and Machine Learning series)" available from the Web as the open-source project called MOA

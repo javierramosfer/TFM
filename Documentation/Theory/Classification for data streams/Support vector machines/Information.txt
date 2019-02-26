@@ -1,0 +1,2 @@
+Pending:
+	- See book "DATA MINING Concepts and Techniques" to see the theory about Support Vector Machinesg

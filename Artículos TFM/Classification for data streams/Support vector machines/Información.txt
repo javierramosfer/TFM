@@ -1,2 +1,0 @@
-Pendiente:
-	- Mirar libro "DATA MINING Concepts and Techniques" para ver la teoría sobre Support Vector Machines

@@ -1,2 +1,4 @@
 Pending:
 	- Check the software framework that implements many of the techniques explained in the book "Machine Learning for Data Streams: with Practical Examples in MOA (Adaptive Computation and Machine Learning series)" available from the Web as the open-source project called MOA
+	- Check VFML (http://www.cs.washington.edu/dm/vfml/)
+	- Checl scikit-multiflow (https://scikit-multiflow.github.io/). Paper: http://jmlr.org/papers/volume19/18-251/18-251.pdf (See the table with the algorithms that are available) 

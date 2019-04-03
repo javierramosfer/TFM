@@ -14,3 +14,4 @@ Pending:
 
 
 	- Take into account the inclusion of k-median and k-means clustering as a possible category for classifying algorithms.
+	- Take into account the different window models (landmark window, sliding window, etc.) as a possible category for classifying algorithms. -> See "surveyFinal"

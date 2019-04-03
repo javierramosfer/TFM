@@ -12,3 +12,5 @@ Pending:
 	
 	- Try to classify the different clustering methods for data streams according to the classification of clustering methods made in the book "DATA MINING Concepts and Techniques"
 
+
+	- Take into account the inclusion of k-median and k-means clustering as a possible category for classifying algorithms.

@@ -1,0 +1,8 @@
+En el paper de StreamKM++ aparece:
+"In the theory community, a number of streaming algorithms for k-median and k-means clusterings have been developed:
+	(1) On k-Median Clustering in High Dimensions (2006)
+	(2) A PTAS for k-means clustering based on weak coresets (2007)
+	(3) Coresets in Dynamic Geometric Data Streams (2005)
+	(4) Clustering data streams (2000)
+	(5) On coresets for k-means and k-median clustering (2004)
+ Many of these algorithms are based on applying the merge-and-reduce procedure from (5) to obtain a small coreset of the data stream, i.e., a small weighted point set that approximates the points from the data stream with respect to the k-means clustering problem.

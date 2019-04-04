@@ -12,6 +12,7 @@ Pending:
 	
 	- Try to classify the different clustering methods for data streams according to the classification of clustering methods made in the book "DATA MINING Concepts and Techniques"
 
-
+. See "surveyFinal" too.
 	- Take into account the inclusion of k-median and k-means clustering as a possible category for classifying algorithms.
 	- Take into account the different window models (landmark window, sliding window, etc.) as a possible category for classifying algorithms. -> See "surveyFinal"
+	- Take into account incremental algorithms for classifying algorithms.

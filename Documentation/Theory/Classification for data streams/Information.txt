@@ -1,0 +1,1 @@
+- The document "A Survey on Supervised Classification on Data Streams" describes the difference between incremental learning and online learning. Moreover, it is a good source to look for proposals.

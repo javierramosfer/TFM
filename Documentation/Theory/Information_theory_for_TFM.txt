@@ -1,3 +1,4 @@
 - The document "A Survey on Supervised Classification on Data Streams" describes the difference between incremental learning and online learning. Moreover, it is a good source to look for proposals.
 - The paper "RDWM" (Ensemble) explains the different types of concept drift in the introduction. It refers to different approaches for online learning in the introduction too.
-- In the additional documents there is a paper about a survey on rough theory that mentions the probability theory, the fuzzy set theory and the evidence theory.
+- In the additional documents there is a paper about a survey on rough set theory that mentions the probability theory, the fuzzy set theory and the evidence theory.
+- http://dsc.soic.indiana.edu/publications/survey_algorithms_streaming.pdf -> Information about some streaming data algorithms

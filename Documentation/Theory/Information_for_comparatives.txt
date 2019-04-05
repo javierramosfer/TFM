@@ -16,3 +16,4 @@ Pending:
 	- Take into account the inclusion of k-median and k-means clustering as a possible category for classifying algorithms.
 	- Take into account the different window models (landmark window, sliding window, etc.) as a possible category for classifying algorithms. -> See "surveyFinal"
 	- Take into account incremental algorithms for classifying algorithms.
+	- Take into account different types of concept drift for classifying, especially for ensemble methods (see different types of concept drift in the paper RRDWM, an ensemble method).

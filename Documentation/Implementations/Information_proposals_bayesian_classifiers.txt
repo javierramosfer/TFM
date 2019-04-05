@@ -1,0 +1,3 @@
+- If it is necessary to read different forms of estimating continuous distributions in bayesian classifiers to implement a proposal with bayesian classifiers:
+	- Paper "Estimating continuous distributions in bayesian classifiers" -> For ideas
+	- Paper "Incremental discretization for naïve bayes classifier" -> We could use IFFD in the proposal "Incremental Weighted Naive Bayes"

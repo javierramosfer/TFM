@@ -6,3 +6,4 @@
 - There are three basic stream processing models: landmark window model , sliding window model and damped window model [26]. The sliding window considers a fixed number of stream records, compared with landmark window model, 
 it detects changes in the properties of stream records faster ( e.g. concept drift), and does not have to assign different weights to stream records (as damped window model).
 - In the document "A Survey on Data Stream Clustering and Classification" there is a summary of advantages and limitations of classification algorithms.
+- In the paper "Concept drift in Streaming Data Classification: Algorithms, Platforms and Issues" (not in proposals) the concept drift term is explained.

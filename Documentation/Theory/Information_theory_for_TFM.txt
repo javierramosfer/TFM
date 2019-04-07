@@ -5,3 +5,4 @@
 - The paper "Voting Massive Collections of Bayesian Network Classifiers for Data Streams" explains different types of Bayesian classifiers. It compares them referring to the data stream approach.
 - There are three basic stream processing models: landmark window model , sliding window model and damped window model [26]. The sliding window considers a fixed number of stream records, compared with landmark window model, 
 it detects changes in the properties of stream records faster ( e.g. concept drift), and does not have to assign different weights to stream records (as damped window model).
+- In the document "A Survey on Data Stream Clustering and Classification" there is a summary of advantages and limitations of classification algorithms.

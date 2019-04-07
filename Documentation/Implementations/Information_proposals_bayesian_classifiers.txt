@@ -4,3 +4,5 @@
 - The paper "An effective pattern-based Bayesian classifier for evolving data stream" mentions that there are three basic stream processing models: landmark window model, sliding window model and damped window model.
   The sliding window considers a fixed number of stream records, compared with landmark window model, it detects changes in the properties  of stream records faster ( e.g. concept drift), and does not have to 
   assign different weights to stream records (as damped window model), so the sliding window model is employed for efficient pattern mining in this paper. -> Se podría probar landmark windows model y damped window model.
+- The documents "A Survey on Data Stream Clustering and Classification (2014)", "A Survey of Stream Classification Algorithms (2014)" and "A Survey on Supervised Classification on Data Streams (2015)" don't really address Bayesian classifiers. -> Se podría mencionar que vamos a añadir el tema
+  de los clasificadores Bayesianos (además de Dynamic, Temporal, Continuous Time Bayesian Networks y Time series)

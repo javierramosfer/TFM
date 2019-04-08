@@ -10,3 +10,5 @@
   to TAN.
 - The paper "Fast Feature Selection for Naive Bayes Classification in Data Stream Mining (2013)" provides experimental results which demonstrate that continuous feature selection for NB stream mining provides 
   high levels of predictive performance compared to once-off feature selection. We could apply a continuous feature selection to a proposal.
+- The paper "Classifying evolving data streams with partially labeled data (2011)" apply two approaches to deal with imbalanced data: clustering-sampling and selectively recursive approach (SERA). Maybe we could
+  apply them.

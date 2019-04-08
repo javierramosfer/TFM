@@ -6,3 +6,5 @@
   assign different weights to stream records (as damped window model), so the sliding window model is employed for efficient pattern mining in this paper. -> Se podría probar landmark windows model y damped window model.
 - The documents "A Survey on Data Stream Clustering and Classification (2014)", "A Survey of Stream Classification Algorithms (2014)" and "A Survey on Supervised Classification on Data Streams (2015)" don't really address Bayesian classifiers. -> Se podría mencionar que vamos a añadir el tema
   de los clasificadores Bayesianos (además de Dynamic, Temporal, Continuous Time Bayesian Networks y Time series)
+- The paper "Incremental Learning of Tree Augmented Naive Bayes Classifiers (2002)" mentions that TAN outperforms Naive Bayes while maintaining the computational simplicity on learning and classifying. Maybe we can adapt the proposal "Incremental Weighted Naive Bayes Classifiers for Data Stream (2014)"
+  to TAN.

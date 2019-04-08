@@ -8,3 +8,5 @@
   de los clasificadores Bayesianos (además de Dynamic, Temporal, Continuous Time Bayesian Networks y Time series)
 - The paper "Incremental Learning of Tree Augmented Naive Bayes Classifiers (2002)" mentions that TAN outperforms Naive Bayes while maintaining the computational simplicity on learning and classifying. Maybe we can adapt the proposal "Incremental Weighted Naive Bayes Classifiers for Data Stream (2014)"
   to TAN.
+- The paper "Fast Feature Selection for Naive Bayes Classification in Data Stream Mining (2013)" provides experimental results which demonstrate that continuous feature selection for NB stream mining provides 
+  high levels of predictive performance compared to once-off feature selection. We could apply a continuous feature selection to a proposal.

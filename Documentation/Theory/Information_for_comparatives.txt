@@ -19,3 +19,4 @@ Pending:
 	  analysed to the most recent instances. The main advantage of this technique is to prevent stale data from influencing the models obtained in the mining process.
 	- Take into account incremental algorithms for classifying algorithms.
 	- Take into account different types of concept drift for classifying, especially for ensemble methods (see different types of concept drift in the paper RRDWM, an ensemble method).
+	- The paper "Classifying evolving data streams with partially labeled data (2011)" classifies the approaches proposed to handle concept-drifting data streams into blind approaches and informed approaches.

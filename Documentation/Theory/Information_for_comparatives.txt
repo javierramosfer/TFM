@@ -15,5 +15,7 @@ Pending:
 . See "surveyFinal" too.
 	- Take into account the inclusion of k-median and k-means clustering as a possible category for classifying algorithms.
 	- Take into account the different window models (landmark window, sliding window, etc.) as a possible category for classifying algorithms. -> See "surveyFinal"
+	- One approach to selecting data for mining data streams is called the sliding window approach. A sliding window, which may be of fixed or variable width, provides a mechanism of limiting the data to be 
+	  analysed to the most recent instances. The main advantage of this technique is to prevent stale data from influencing the models obtained in the mining process.
 	- Take into account incremental algorithms for classifying algorithms.
 	- Take into account different types of concept drift for classifying, especially for ensemble methods (see different types of concept drift in the paper RRDWM, an ensemble method).

@@ -13,4 +13,5 @@
 - The paper "Classifying evolving data streams with partially labeled data (2011)" apply two approaches to deal with imbalanced data: clustering-sampling and selectively recursive approach (SERA). Maybe we could
   apply them.
 - The paper "Mining multi-dimensional concept drifting data streams using Bayesian network classifiers (2016)" mentions that only few multidimensional streaming methods have been introduced. We could implement a
-  proposal for multidimensional Bayesian network classifiers for data streams.
+  proposal for multidimensional Bayesian network classifiers for data streams. Moreover, the paper proposes that, in the future, it will be interesting to investigate the use of different exact or approximate inference
+methods in order to alleviate the computational burden when calculating the most probable explanation. Maybe we could go in that way.

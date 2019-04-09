@@ -12,4 +12,5 @@ it detects changes in the properties of stream records faster ( e.g. concept dri
 - The paper "Classifying evolving data streams with partially labeled data (2011)" mentions performance indicators over time -> Classification accuracy is the most used indicator, i.e., if there is a consistent drop
   in the accuracy, a drift is signaled. Other performance indicators, such as error rate, recall and precision have also been used.
 - The paper "Classifying evolving data streams with partially labeled data (2011)" explains the EM algorithm.
+- The paper "Weighted Naïve Bayes Classifier with Forgetting for Drifting Data Streams (2015)" mentions the three main approaches on handling streaming and drifting data.
   

@@ -20,4 +20,8 @@ Pending:
 	- Take into account incremental algorithms for classifying algorithms.
 	- Take into account different types of concept drift for classifying, especially for ensemble methods (see different types of concept drift in the paper RRDWM, an ensemble method).
 	- The paper "Classifying evolving data streams with partially labeled data (2011)" classifies the approaches proposed to handle concept-drifting data streams into blind approaches and informed approaches.
-	- There are papers that deal with partially-labeled data streams. Take into account this to classify different proposals.
+	- There are papers that deal with partially-labeled data streams. Take into account this to classify different proposals. Moreover, the document "A Survey on Ensemble Learning for Data Stream Classification (2017)"
+	  mentions several proporsal for dealing with partially-labeled data streams.
+        - Paper "Weighted Naïve Bayes Classifier with Forgetting for Drifting Data Streams (2015)": There is a plethora of classifiers desogned for stream analysis (both in cases of stationary and drifting ones). 
+          They can be divided into the following types: drift detection algorithms, online learners, sliding window-based solutions and ensemble approaches. -> Take into account for the classification of the papers.
+          The paper mentioned describes these types.

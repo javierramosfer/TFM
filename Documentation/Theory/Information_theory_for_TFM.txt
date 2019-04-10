@@ -18,4 +18,5 @@ it detects changes in the properties of stream records faster ( e.g. concept dri
   drift occurs. -> As pointed out in [16], these methods can be categorized into four groups: i) methods based on sequential analysis such as the sequential probability ratio test; ii) methods based on control
   charts or statistical process control; iii) methods based on monitoring distributions on two different time-windows such as the ADWIN algorithm; and iv) contextual methods such as the splice system.
   More details about these methods and their references can be found in [16], Section 3.2.
+- http://www.otnira.com/2013/03/28/hoeffding-tree-for-streaming-classification/
   

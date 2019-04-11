@@ -1,1 +1,3 @@
-- J. Gama, R. Fernandes, and R. Rocha. Decision trees for mining data streams. Intelligent Data Analysis, 10:23–45, 2006.
+- J. Gama, R. Fernandes, and R. Rocha. Decision trees for mining data streams. Intelligent Data Analysis, 10:23–45, 2006. (survey (1))
+- Flexible decision tree for data stream classification in the presence of concept change, noise and missing values (2009) -> FlexDT (survey (1))
+- MFlexDT: multi flexible fuzzy decision tree for data stream classification (2016) -> Extend the Flexible Fuzzy Decision Tree (FlexDT)

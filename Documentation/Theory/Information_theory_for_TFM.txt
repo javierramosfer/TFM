@@ -19,4 +19,18 @@ it detects changes in the properties of stream records faster ( e.g. concept dri
   charts or statistical process control; iii) methods based on monitoring distributions on two different time-windows such as the ADWIN algorithm; and iv) contextual methods such as the splice system.
   More details about these methods and their references can be found in [16], Section 3.2.
 - http://www.otnira.com/2013/03/28/hoeffding-tree-for-streaming-classification/
-  
+- The paper "Cost-Sensitive Perceptron Decision Trees for Imbalanced Drifting Data Streams (2017)" contains interesting information for the composition of the TFM (throughout all the paper) -> Mining streaming and drifting data is among the most popular
+contemporary applications of machine learning methods; imbalanced data; explanation of different concept drifts (from the point of view of influencing the existing decision boundaries, from the severity of ongoing changes); etcétera.
+- The paper "Cost-Sensitive Perceptron Decision Trees for Imbalanced Drifting Data Streams (2017)" mentions the following: In order to tackle the presence of concept drift one may chose among three main approaches:
+  (a) rebuilding classifier from a scratch whenever new instances become available; (b) use a specific tool to detect changes and guide the model reconstruction; and  (c) use adaptive classifier that will naturally 
+  follow the changes in the stream.  The first approach is completely unsuitable due to prohibitive computational requirements, especially in case of online stream processing. Following the remaining two directions,
+  we may distinguish four main approaches to handling drifting data streams. First one relies on using a concept drift detector - an external tool that monitors the characteristics and informs when a change is
+  expected to appear. This allows for rebuilding the classifier only when it is deemed as necessary. Second one uses a sliding window in order to keep a track of most recent instances, as they should be most
+  representative to the current state of the stream. Such a window follows the stream, discarding old instances and replacing them with most recent ones. However, the size of the window is a crucial factor affecting
+  the performance of this approach. Third solution uses online or incremental classifiers that are able to incorporate new instances by updating the classification model without a need for a complete
+  retraining. A forgetting mechanism is required in order to allow for better adaptation to changes and reduced model complexity. Finally, ensemble solutions are popularly used for mining drifting data streams.
+  Here, new instances may be used to control diversity of the base learners, allowing them to better adapt to changes, while offering improved predictive capabilities.
+- The paper "Cost-Sensitive Perceptron Decision Trees for Imbalanced Drifting Data Streams (2017)" The paper "Cost-Sensitive Perceptron Decision Trees for Imbalanced Drifting Data Streams (2017)" explains the
+  following: Skewed distributions pose challenges to most of classifiers, as their will lead to a bias towards the majority class, while minority is usually the more important one. This has lead to a number
+  of solutions that aims at alleviating this disproportion that can be grouped into three categories: data-level, algorithm-level and hybrid solutions.
+- The paper "" mentions that McDiarmid’s inequality is a generalization of the Hoeffding’s inequality, being applicable to both numerical and non-numerical data, as well as better describing the split measures.

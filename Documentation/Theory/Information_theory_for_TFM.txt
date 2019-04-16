@@ -36,3 +36,4 @@ contemporary applications of machine learning methods; imbalanced data; explanat
 - The paper "" mentions that McDiarmid’s inequality is a generalization of the Hoeffding’s inequality, being applicable to both numerical and non-numerical data, as well as better describing the split measures.
 - The chapter "Handling numeric attributes in hoeffding trees (2008)" mentions that Gaussian estimator is the least sensitive to hyperparameter value and induced the most accurate models, becoming the default estimator in recent works.
   We could use it to mention proposals that use this type of estimator.
+- Survey (3) -> Explains incremental learning and incremental learning on streams (¿online learning?)

@@ -34,3 +34,5 @@ contemporary applications of machine learning methods; imbalanced data; explanat
   following: Skewed distributions pose challenges to most of classifiers, as their will lead to a bias towards the majority class, while minority is usually the more important one. This has lead to a number
   of solutions that aims at alleviating this disproportion that can be grouped into three categories: data-level, algorithm-level and hybrid solutions.
 - The paper "" mentions that McDiarmid’s inequality is a generalization of the Hoeffding’s inequality, being applicable to both numerical and non-numerical data, as well as better describing the split measures.
+- The chapter "Handling numeric attributes in hoeffding trees (2008)" mentions that Gaussian estimator is the least sensitive to hyperparameter value and induced the most accurate models, becoming the default estimator in recent works.
+  We could use it to mention proposals that use this type of estimator.

@@ -29,3 +29,13 @@ Pending:
 	  changes. Blind adaptation typically uses techniques as fixed-size sliding windows that take a window size w as a parameter and periodically retrain the model with the latest w examples, and example weighting
 	  that considers the importance of training examples. The informed strategies are reactive; their actions depend on whether a trigger has been flagged. Triggers can be either change detectors
 	  (examples described in Section 3.2) or specific data descriptors (A survey on concept drift adaptation) -> Take into account for classification.
+        - The introduction of the paper "Strict Very Fast Decision Tree: a memory conservative algorithm for data stream mining (2018)" mentions the following: Many algorithms have been proposed to handle these
+	  difficulties, among them, the Very Fast Decision Tree (VFDT) algorithm. Although the VFDT has been widely used in data stream mining, in the last years, several authors have suggested modifications
+          to increase its performance, putting aside memory concerns by proposing memory-costly solutions. Besides, most data stream mining solutions have been centred around ensembles, which combine the memory
+          costs of their weak learners, usually VFDTs. To reduce the memory cost, keeping the predictive performance, this study proposes the Strict VFDT (SVFDT), a novel algorithm based on the VFDT. -> Take
+          into account when comparing different proposals related to decision trees with data streams.
+	- The introduction of the paper "Strict Very Fast Decision Tree: a memory conservative algorithm for data stream mining (2018)" explains that SVFDT is a suitable option for data stream mining with memory
+          and time limitations, recommended as a weak learner in ensemble-based solutions. In the paper "Making Data Stream Classification Tree-based Ensembles Lighter" proposes to use the Strict VFDT (SVFDT)
+          algorithm as an alternative weak learner for ensemble solutions which is capable of reducing memory consumption without harming the predictive performance (common authors in both papers). -> Bear in mind
+	- The paper "OVFDT with Functional Tree Leaf - Majority Class, Naive Bayes and Adaptive Hybrid Integrations (2011)" integrates OVFDT ("Optimized Very Fast Decision Tree with Balanced Classification Accuracy
+          and Compact Tree Size") and Functional Tree Leaf ("Accurate decision trees for mining high-speed data streams"). -> Take into account

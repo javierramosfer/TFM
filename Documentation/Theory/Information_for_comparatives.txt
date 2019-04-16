@@ -39,3 +39,4 @@ Pending:
           algorithm as an alternative weak learner for ensemble solutions which is capable of reducing memory consumption without harming the predictive performance (common authors in both papers). -> Bear in mind
 	- The paper "OVFDT with Functional Tree Leaf - Majority Class, Naive Bayes and Adaptive Hybrid Integrations (2011)" integrates OVFDT ("Optimized Very Fast Decision Tree with Balanced Classification Accuracy
           and Compact Tree Size") and Functional Tree Leaf ("Accurate decision trees for mining high-speed data streams"). -> Take into account
+	- Mention ensemble methods as last methods because they reference papers from decision trees, for example.

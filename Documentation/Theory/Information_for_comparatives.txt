@@ -40,3 +40,9 @@ Pending:
 	- The paper "OVFDT with Functional Tree Leaf - Majority Class, Naive Bayes and Adaptive Hybrid Integrations (2011)" integrates OVFDT ("Optimized Very Fast Decision Tree with Balanced Classification Accuracy
           and Compact Tree Size") and Functional Tree Leaf ("Accurate decision trees for mining high-speed data streams"). -> Take into account
 	- Mention ensemble methods as last methods because they reference papers from decision trees, for example.
+	- Paper "Online Classification of Nonstationary Data Streams (2002) -> Methods for extracting patterns from continuous streams of data are known as incremental (online) learning algorithms. The basic idea
+          of incremental induction is that upon receiving a new instance, it is much less expensive to update an existing model than to build a new one. On the other hand, as indicated in [6], the incremental
+          algorithms suffer from several shortcomings, like high sensitivity to the order of training examples and longer training times than the non-incremental (batch) methods. Pure incremental methods consider
+          every new instance, which may be impractical in environments, where transactions arrive at the rate of thousands per second. The algorithms for purely incremental learning include WINNOW [21], COBWEB [10],
+          ITI [31], and the stochastic gradient descent algorithm for training a neural network (see [27]). Most of these methods are focused on efficient ways of inducing a classification model from stationary
+          data streams.

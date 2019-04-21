@@ -37,3 +37,7 @@ contemporary applications of machine learning methods; imbalanced data; explanat
 - The chapter "Handling numeric attributes in hoeffding trees (2008)" mentions that Gaussian estimator is the least sensitive to hyperparameter value and induced the most accurate models, becoming the default estimator in recent works.
   We could use it to mention proposals that use this type of estimator.
 - Survey (3) -> Explains incremental learning and incremental learning on streams (¿online learning?)
+- Paper "Online Classification of Nonstationary Data Streams (2002)" -> Methods for extracting patterns from continuous streams of data are known as incremental (online) learning algorithms. The basic idea of
+  incremental induction is that upon receiving a new instance, it is much less expensive to update an existing model than to build a new one. On the other hand, as indicated in [6], the incremental algorithms
+  suffer from several shortcomings, like high sensitivity to the order of training examples and longer training times than the non-incremental (batch) methods. Pure incremental methods
+  consider every new instance, which may be impractical in environments, where transactions arrive at the rate of thousands per second.

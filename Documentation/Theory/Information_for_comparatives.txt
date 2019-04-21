@@ -46,3 +46,7 @@ Pending:
           every new instance, which may be impractical in environments, where transactions arrive at the rate of thousands per second. The algorithms for purely incremental learning include WINNOW [21], COBWEB [10],
           ITI [31], and the stochastic gradient descent algorithm for training a neural network (see [27]). Most of these methods are focused on efficient ways of inducing a classification model from stationary
           data streams.
+	- Paper "Incremental Decision Tree based on order statistics (2013)" -> The difference in building an online tree and an offline tree comes from the fact that data arrive continuously for the first one.
+          The choice of the attribute to cut is made according to the summary and not on all data. The choice of transforming a leaf into a node, is a definitive action. To make sure that this choice is realized
+          with a certain confidence, Domingos and Hulten suggest in VFDT the use of the Hoeffding bound [16]. This bound brings a guarantee on the choice of the good attribute. The Hoeffding bound was afterwards
+          often used to build online decision tree: VFDTc [12], CVFDT [17], IADEM [22], “ensemble of Hoeffding trees” [19]... The Hoeffding bound is also used in this article to construct the proposed online tree.

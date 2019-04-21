@@ -41,3 +41,8 @@ contemporary applications of machine learning methods; imbalanced data; explanat
   incremental induction is that upon receiving a new instance, it is much less expensive to update an existing model than to build a new one. On the other hand, as indicated in [6], the incremental algorithms
   suffer from several shortcomings, like high sensitivity to the order of training examples and longer training times than the non-incremental (batch) methods. Pure incremental methods
   consider every new instance, which may be impractical in environments, where transactions arrive at the rate of thousands per second.
+- The paper “Incremental Decision Tree based on order statistics (2013)” presents different types of summaries for numerical attributes and mentions things related to summaries for categorical attributes.
+- The paper "Data Stream Mining using Decision Tree Learning Algorithms (2014)" mentions the following: A major challenge in data stream classification, which deserves attention but has long assumed that the
+  numbers of classes are fixed. However, in data streams, new classes may often appear. For example, a new kind of intrusion may appear in network traffic, or a new category of text may appear in a social text
+  stream such as Twitter. When a new class emerges, traditional data stream classifiers misclassify the instances of the new class as one of the old classes. In other words, a traditional classifier is bound to
+  misclassify any instance belonging to a new class, because the classifier has not been trained with that class. It is important to be able to proactively detect novel classes in data streams.

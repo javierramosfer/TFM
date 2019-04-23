@@ -46,3 +46,6 @@ contemporary applications of machine learning methods; imbalanced data; explanat
   numbers of classes are fixed. However, in data streams, new classes may often appear. For example, a new kind of intrusion may appear in network traffic, or a new category of text may appear in a social text
   stream such as Twitter. When a new class emerges, traditional data stream classifiers misclassify the instances of the new class as one of the old classes. In other words, a traditional classifier is bound to
   misclassify any instance belonging to a new class, because the classifier has not been trained with that class. It is important to be able to proactively detect novel classes in data streams.
+- The paper "An adapted incremental graded multi-label classification model for recommendation systems (2018)" mentions sequential learning (different from incremental learning, a real-time sequential learning). It
+  also explains sliding windows and says that there are two main methods are used in the literature to evaluate classification in data streams [19,20]: the holdout error measure and the prequential error measure (The
+  value EP is used as follows: each received new instance is given to the hypothesis for prediction then for training, and the loss function is computed whenever the ground truth value becomes available.).

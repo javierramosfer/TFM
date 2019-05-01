@@ -1,0 +1,2 @@
+- Computationally efficient rule-based classification for continuous streaming data (2014) -> Only need one pass through the data and thus train and adapt to concept drifts in real-time scenarios.
+									                      Nonetheless,their scalability is limited to the utilisation of one processing node at a time.

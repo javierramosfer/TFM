@@ -52,3 +52,4 @@ Pending:
           often used to build online decision tree: VFDTc [12], CVFDT [17], IADEM [22], “ensemble of Hoeffding trees” [19]... The Hoeffding bound is also used in this article to construct the proposed online tree.
 	- Take into account if the papers treats the incorporation of new attributes during the data stream.
 	- Paper "Rules Generation From the Decision Tree" (not in the proposals) -> Introduction (ID4, ID5, ID5R), Decision trees
+	- Paper "Incremental semi-supervised learning on streaming data (2019)" -> Take into account when comparing with other semi-supervised approaches.
